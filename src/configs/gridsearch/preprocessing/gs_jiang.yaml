@@ -1,0 +1,13 @@
+---
+unfair_metric:
+  - tp
+  - fp
+  - fn
+population_size:
+  - 100
+  - 50
+  - 20
+max_gen:
+  - 5
+  - 50
+  - 100

@@ -1,0 +1,10 @@
+---
+clustering:
+  - kmeans
+  - agg
+  - spe
+knn:
+  - 1
+  - 3 
+  - 5
+  - 7

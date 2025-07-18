@@ -1,0 +1,11 @@
+---
+k:
+  - 3
+  - 5
+  - 10
+sampling_strategy:
+  - minority
+  - not minority
+  - not majority
+  - all
+  

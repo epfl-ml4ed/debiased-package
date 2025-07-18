@@ -1,0 +1,5 @@
+---
+model_name:
+  - lr
+  - svm
+  - rf

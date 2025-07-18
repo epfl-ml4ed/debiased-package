@@ -1,0 +1,13 @@
+---
+sgd_steps:
+  - 10000
+  # - 100000
+full_gradient_epochs:
+  - 10000
+  # - 1000
+max_admm_iter: 
+  - 100
+  # - 1000
+
+
+# Suggested 10000, 1000, 100 for 10000 training samples, and 100 features

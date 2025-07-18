@@ -1,0 +1,61 @@
+---
+paths:
+  data: '../data/'
+  experiments: '../experiments/'
+experiment:
+  name: x
+  max_seed: 999
+  model_seeds_n: 1
+  nclasses: x
+seeds:
+  splitter: 193
+  oversampler: 269
+  model: 63
+  inprocessor: 67
+  preprocessor: 92
+  postprocessor: 95
+  splitter: 27
+pipeline:
+  labels: x
+  outer_splitter: stratkf
+  gs_splitter: stratkf
+  gridsearch: supgs
+crossvalidation:
+  stratifier_col: x
+  shuffle: True
+  nested_xval:
+    paramgrid: 
+      - x
+    optim_scoring: roc
+  nestedpreproc_xval:
+    paramgrid:
+      - x
+    optim_scoring: roc # to be changed
+  sync_xval:
+    paramgrid:
+      - x
+    optim_scoring: roc # to be changed
+  post_cval:
+    paramgrid:
+      - x
+    optim_scoring: roc
+  scorer:
+    scoring_metrics:
+      # - tp
+      # - fp
+      - roc
+      # - recall
+      # - precision
+      # - balanced_accuracy
+      # - roc
+    fairness_metrics:
+      # - tp
+      # - fp
+      - roc
+      # - recall
+      # - precision
+      # - balanced_accuracy
+      # - roc
+plotter:
+  experiment_indices: 1
+...
