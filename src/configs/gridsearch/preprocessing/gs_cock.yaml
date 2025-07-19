@@ -1,5 +1,0 @@
----
-clustering:
-  # - spectral
-  - kmeans
-  # - hdbscan

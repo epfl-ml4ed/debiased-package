@@ -1,8 +1,0 @@
----
-C_factor:
-  - 10
-  - 100
-  - 1000
-fairness_metric:
-  - eop
-  - dp

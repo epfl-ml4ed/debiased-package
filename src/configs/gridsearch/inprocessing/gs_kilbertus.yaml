@@ -1,8 +1,0 @@
----
-epochs:
-  - 10
-  - 50
-  - 200
-optimiser:
-  - lagrange
-  - unconstrained
