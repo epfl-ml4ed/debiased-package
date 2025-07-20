@@ -4,12 +4,12 @@ build:
   os: ubuntu-24.04
   tools:
     python: "3.11"
-  system_packages: false  # <-- moved here
+  
 
-python:
-  install:
-    - method: pip
-      path: .  # NOT ./src/debiased — use the root if you're using setup.py or pyproject.toml
-
+# python:
+#   system_packages: false  
+#   install:
+#     - method: pip
+#       path: .  # NOT ./src/debiased — use the root if you're using setup.py or pyproject.toml
 sphinx:
   configuration: docs/source/conf.py
