@@ -1,20 +1,15 @@
-# Read the Docs configuration file
-# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
-
-# Required
 version: 2
 
-# Set the OS, Python version, and other tools you might need
 build:
   os: ubuntu-24.04
   tools:
     python: "3.11"
+  system_packages: false  # <-- moved here
 
 python:
   install:
     - method: pip
-      path: ./src/debiased
-  system_packages: false
-  
+      path: .  # NOT ./src/debiased — use the root if you're using setup.py or pyproject.toml
+
 sphinx:
   configuration: docs/source/conf.py
