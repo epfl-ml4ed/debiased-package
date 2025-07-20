@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: debiased
-Version: 0.1.1
+Version: 0.1.2
 Summary: A package to facilitate bias mitigation techniques that work for educationnal data
 Author-email: Frank Stinar <fjstinar@gmail.com>, "(Jade) Mai Cock" <bonjour@jadecock.be>
 License:                     GNU GENERAL PUBLIC LICENSE
@@ -679,6 +679,7 @@ License:                     GNU GENERAL PUBLIC LICENSE
         <https://www.gnu.org/licenses/why-not-lgpl.html>.
 Project-URL: Homepage, https://github.com/epfl-ml4ed/debiased-package
 Project-URL: Issues, https://github.com/epfl-ml4ed/debiased-package/issues
+Project-URL: Documentation, https://debiased-package.readthedocs.io/en/latest/
 Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.11

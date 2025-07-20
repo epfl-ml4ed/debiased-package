@@ -29,7 +29,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "debiased"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
   { name="Frank Stinar", email="fjstinar@gmail.com" },
   { name="(Jade) Mai Cock", email="bonjour@jadecock.be" }
@@ -47,4 +47,4 @@ license = { file = "LICENSE" }
 [project.urls]
 Homepage = "https://github.com/epfl-ml4ed/debiased-package"
 Issues = "https://github.com/epfl-ml4ed/debiased-package/issues"
-Documentation = "https://yourusername.github.io/yourproject/"
+Documentation = "https://debiased-package.readthedocs.io/en/latest/"
