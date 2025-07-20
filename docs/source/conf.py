@@ -13,7 +13,7 @@ extensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon']
 project = 'DebiasED'
 copyright = '2025, Frank Stinar and (Jade) Mai Cock'
 author = 'Frank Stinar and (Jade) Mai Cock'
-release = '0.1.0'
+release = '0.1.2'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
